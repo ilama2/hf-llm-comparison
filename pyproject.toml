@@ -1,0 +1,10 @@
+[project]
+name = "llm-task"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "gradio>=6.13.0",
+    "notebook>=7.5.5",
+]
