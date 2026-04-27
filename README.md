@@ -7,12 +7,11 @@ This project uses Hugging Face models to perform:
 - Summarization  
 - Question Answering  
 
-It also compares two models to evaluate their performance.
 
 ---
 
 ## Models Used
-- `google/flan-t5-base`  
+- `Qwen/Qwen2.5-0.5B-Instruct`  
 - `TinyLlama/TinyLlama-1.1B-Chat-v1.0`  
 
 ---
@@ -23,8 +22,4 @@ It also compares two models to evaluate their performance.
 - Answer questions using context  
 - Compare outputs between models  
 
----
 
-## Installation
-```bash
-pip install transformers accelerate torch sentencepiece
